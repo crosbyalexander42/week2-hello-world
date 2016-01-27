@@ -10,11 +10,17 @@ language=input() # Making input language isn't really necessary but I wanted to
 
 if language == 'spanish':
     print('Hola!')
+if language == '1':
+    print('Hola!')
 elif language == 'french':
+    print('Bonjour!')
+elif language == '2':
     print('Bonjour!')
 elif language == 'german':
     print('Hallo!')
-elif language != 'spanish' or 'french' or 'german': # This is just so that it
+elif language == '3':
+    print('Hallo!')
+elif language != 'spanish' or '1' or 'french' or '2' or 'german' or '3': # This is just so that it
     print('That is not a correct input...')         # just doesn't close out
     print('Are you quite alright master?')          # when there is an incorrect
                                                     # input. Not needed though
